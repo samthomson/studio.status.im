@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "scripts": {
     "clean": "rm -rf public/*",
     "build": "hexo generate",
     "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy",
+    "serve": "hexo serve"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
