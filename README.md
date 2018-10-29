@@ -19,6 +19,5 @@ Make sure you have node.js installed first.
 1. Open Terminal and navigate to the project root directory,
 2. Run `npm install`,
 3. Run `npm run build`,
-4. Go to `public/` directory,
-5. Start a simple HTTP server serving files, for example: `python -m SimpleHTTPServer 8000`,
-6. Open http://localhost:8000 in a browser.
+4. Run `npm run serve`
+5. Open http://localhost:4000 in a browser.
