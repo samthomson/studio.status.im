@@ -22,7 +22,7 @@ $(document).ready(function() {
       $('body').toggleClass('general-menu-open');
   });
 
-  $('.has-popup-community, #popup-community .close, .general-popup-backdrop').on('click', function(event) {
+  $('.has-popup-community, .has-popup-projects #popup-community, #popup-projects .close, .general-popup-backdrop').on('click', function(event) {
       event.preventDefault();
       $('body').toggleClass('general-popup-open');
   });
